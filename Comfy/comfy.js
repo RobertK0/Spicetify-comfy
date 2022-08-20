@@ -3,7 +3,7 @@
   script.setAttribute("type", "text/javascript");
   script.setAttribute(
     "src",
-    "https://raw.githubusercontent.com/RobertK0/Spicetify-comfy/main/Comfy/comfy.script.js"
+    "https://robertk0.github.io/Spicetify-comfy/Comfy/comfy.script.js"
   );
   document.head.appendChild(script);
 })();

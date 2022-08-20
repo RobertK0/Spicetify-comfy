@@ -56,21 +56,21 @@ if ($PSVersionTable.PSVersion.Major -gt $PSMinVersion) {
 
   # Clone to .spicetify.
   Write-Part "DOWNLOADING    "; Write-Emphasized $sp_dot_dir
-  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Comfy-Themes/Spicetify/main/Comfy/color.ini" -UseBasicParsing -OutFile "$sp_dot_dir\Comfy\color.ini"
-  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Comfy-Themes/Spicetify/main/Comfy/user.css" -UseBasicParsing -OutFile "$sp_dot_dir\Comfy\user.css"
-  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Comfy-Themes/Spicetify/main/Comfy/comfy.js" -UseBasicParsing -OutFile "$spicePath\Extensions\comfy.js"
+  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/RobertK0/Spicetify-comfy/main/Comfy/color.ini" -UseBasicParsing -OutFile "$sp_dot_dir\Comfy\color.ini"
+  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/RobertK0/Spicetify-comfy/main/Comfy/user.css" -UseBasicParsing -OutFile "$sp_dot_dir\Comfy\user.css"
+  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/RobertK0/Spicetify-comfy/main/Comfy/comfy.js" -UseBasicParsing -OutFile "$spicePath\Extensions\comfy.js"
   Write-Done
 
   Write-Part "DOWNLOADING    "; Write-Emphasized "$sp_dot_dir\Comfy-Chromatic"
-  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Comfy-Themes/Spicetify/main/Comfy-Chromatic/color.ini" -UseBasicParsing -OutFile "$sp_dot_dir\Comfy-Chromatic\color.ini"
-  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Comfy-Themes/Spicetify/main/Comfy-Chromatic/user.css" -UseBasicParsing -OutFile "$sp_dot_dir\Comfy-Chromatic\user.css"
-  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Comfy-Themes/Spicetify/main/Comfy-Chromatic/comfy-chromatic.js" -UseBasicParsing -OutFile "$spicePath\Extensions\comfy-chromatic.js"
+  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/RobertK0/Spicetify-comfy/main/Comfy-Chromatic/color.ini" -UseBasicParsing -OutFile "$sp_dot_dir\Comfy-Chromatic\color.ini"
+  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/RobertK0/Spicetify-comfy/main/Comfy-Chromatic/user.css" -UseBasicParsing -OutFile "$sp_dot_dir\Comfy-Chromatic\user.css"
+  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/RobertK0/Spicetify-comfy/main/Comfy-Chromatic/comfy-chromatic.js" -UseBasicParsing -OutFile "$spicePath\Extensions\comfy-chromatic.js"
   Write-Done
 
   Write-Part "DOWNLOADING    "; Write-Emphasized "$sp_dot_dir\Comfy-Mono"
-  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Comfy-Themes/Spicetify/main/Comfy-Mono/color.ini" -UseBasicParsing -OutFile "$sp_dot_dir\Comfy-Mono\color.ini"
-  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Comfy-Themes/Spicetify/main/Comfy-Mono/user.css" -UseBasicParsing -OutFile "$sp_dot_dir\Comfy-Mono\user.css"
-  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Comfy-Themes/Spicetify/main/Comfy-Mono/comfy-mono.js" -UseBasicParsing -OutFile "$spicePath\Extensions\comfy-mono.js"
+  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/RobertK0/Spicetify-comfy/main/Comfy-Mono/color.ini" -UseBasicParsing -OutFile "$sp_dot_dir\Comfy-Mono\color.ini"
+  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/RobertK0/Spicetify-comfy/main/Comfy-Mono/user.css" -UseBasicParsing -OutFile "$sp_dot_dir\Comfy-Mono\user.css"
+  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/RobertK0/Spicetify-comfy/main/Comfy-Mono/comfy-mono.js" -UseBasicParsing -OutFile "$spicePath\Extensions\comfy-mono.js"
   Write-Done
 
   # Installing.

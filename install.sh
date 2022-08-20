@@ -14,17 +14,18 @@ mkdir -p "${theme_dir}/Comfy-Chromatic"
 mkdir -p "${ext_dir}"
 
 # Download latest tagged files into correct directories
-curl --progress-bar --output "${theme_dir}/Comfy/color.ini" "https://raw.githubusercontent.com/RobertK0/Spicetify-comfy/main/Comfy/color.ini"
-curl --progress-bar --output "${theme_dir}/Comfy/user.css" "https://raw.githubusercontent.com/RobertK0/Spicetify-comfy/main/Comfy/user.css"
-curl --progress-bar --output "${ext_dir}/comfy.js" "https://raw.githubusercontent.com/RobertK0/Spicetify-comfy/main/Comfy/comfy.js"
 
-curl --progress-bar --output "${theme_dir}/Comfy-Mono/color.ini" "https://raw.githubusercontent.com/RobertK0/Spicetify-comfy/main/Comfy-Mono/color.ini"
-curl --progress-bar --output "${theme_dir}/Comfy-Mono/user.css" "https://raw.githubusercontent.com/RobertK0/Spicetify-comfy/main/Comfy-Mono/user.css"
-curl --progress-bar --output "${ext_dir}/comfy-mono.js" "https://raw.githubusercontent.com/RobertK0/Spicetify-comfy/main/Comfy-Mono/comfy-mono.js"
+curl --progress-bar --output "${theme_dir}/Comfy/color.ini" "https://robertk0.github.io/Spicetify-comfy/Comfy/color.ini"
+curl --progress-bar --output "${theme_dir}/Comfy/user.css" "https://robertk0.github.io/Spicetify-comfy/Comfy/user.css"
+curl --progress-bar --output "${ext_dir}/comfy.js" "https://robertk0.github.io/Spicetify-comfy/Comfy/comfy.js"
 
-curl --progress-bar --output "${theme_dir}/Comfy-Chromatic/color.ini" "https://raw.githubusercontent.com/RobertK0/Spicetify-comfy/main/Comfy-Chromatic/color.ini"
-curl --progress-bar --output "${theme_dir}/Comfy-Chromatic/user.css" "https://raw.githubusercontent.com/RobertK0/Spicetify-comfy/main/Comfy-Chromatic/user.css"
-curl --progress-bar --output "${ext_dir}/comfy-chromatic.js" "https://raw.githubusercontent.com/RobertK0/Spicetify-comfy/main/Comfy-Chromatic/comfy-chromatic.js"
+curl --progress-bar --output "${theme_dir}/Comfy-Mono/color.ini" "https://robertk0.github.io/Spicetify-comfy/Comfy-Mono/color.ini"
+curl --progress-bar --output "${theme_dir}/Comfy-Mono/user.css" "https://robertk0.github.io/Spicetify-comfy/Comfy-Mono/user.css"
+curl --progress-bar --output "${ext_dir}/comfy-mono.js" "https://robertk0.github.io/Spicetify-comfy/Comfy-Mono/comfy-mono.js"
+
+curl --progress-bar --output "${theme_dir}/Comfy-Chromatic/color.ini" "https://robertk0.github.io/Spicetify-comfy/Comfy-Chromatic/color.ini"
+curl --progress-bar --output "${theme_dir}/Comfy-Chromatic/user.css" "https://robertk0.github.io/Spicetify-comfy/Comfy-Chromatic/user.css"
+curl --progress-bar --output "${ext_dir}/comfy-chromatic.js" "https://robertk0.github.io/Spicetify-comfy/Comfy-Chromatic/comfy-chromatic.js"
 
 echo "Applying theme"
 spicetify config extensions comfy.js

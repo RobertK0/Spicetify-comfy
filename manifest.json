@@ -7,7 +7,7 @@
     "usercss": "Comfy/user.css",
     "schemes": "Comfy/color.ini",
     "include": [
-      "https://raw.githubusercontent.com/RobertK0/Spicetify-comfy/main/Comfy/comfy.js"
+      "https://robertk0.github.io/Spicetify-comfy/Comfy/comfy.js"
     ],
     "authors": [
       {
@@ -24,7 +24,7 @@
     "usercss": "Comfy-Mono/user.css",
     "schemes": "Comfy-Mono/color.ini",
     "include": [
-      "https://raw.githubusercontent.com/RobertK0/Spicetify-comfy/Comfy-Mono/comfy-mono.js"
+      "https://robertk0.github.io/Spicetify-comfy/Comfy-Mono/comfy-mono.js"
     ],
     "authors": [
       {
@@ -45,7 +45,7 @@
     "usercss": "Comfy-Chromatic/user.css",
     "schemes": "Comfy-Chromatic/color.ini",
     "include": [
-      "https://raw.githubusercontent.com/RobertK0/Spicetify-comfy/Comfy-Chromatic/comfy-chromatic.js"
+      "https://robertk0.github.io/Spicetify-comfy/Comfy-Chromatic/comfy-chromatic.js"
     ],
     "authors": [
       {

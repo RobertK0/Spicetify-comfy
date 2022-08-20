@@ -15,13 +15,13 @@ Full credit to authors and contributors on [the original repo](https://github.co
 Windows -> **PowerShell**:
 
 ```powershell
-iwr -useb https://raw.githubusercontent.com/NYRI4/Comfy-spicetify/main/install.ps1 | iex
+iwr -useb https://raw.githubusercontent.com/RobertK0/Spicetify-comfy/main/install.ps1 | iex
 ```
 
 macOS and Linux -> **Bash**:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/NYRI4/Comfy-spicetify/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/RobertK0/Spicetify-comfy/main/install.sh | sh
 ```
 ### 📥 Manual Installation
 ---

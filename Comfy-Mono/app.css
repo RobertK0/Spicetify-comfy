@@ -1,349 +1,3 @@
-/*/ Nav Bar Mod /*/
-.main-likedSongsButton-likedSongsIcon {
-    background: linear-gradient(149.46deg, #666666, #000000 99.16%) !important;
-	padding: 2px;
-    border-style: solid;
-    border-width: 2px;
-}
-
-.main-yourEpisodesButton-yourEpisodesIcon {
-	padding: 2px;
-    border-style: solid;
-    border-width: 2px;
-    background: #2b2b2b;
-}
-
-.main-collectionLinkButton-collectionLinkButton {
-    text-decoration: none;
-}
-
-
-/*/ Top Bar Mod /*/
-.main-topBar-background {
-    background-color: rgb(20,20,20) !important;
-    opacity: 0% !important;
-}
-
-
-.main-userWidget-box {
-	background-color: #2b2b2b87;
-}
-
-.main-userWidget-box:focus, .main-userWidget-box:hover, .main-userWidget-box[data-context-menu-open=true] {
-    background-color: #2b2b2b90;
-}
-
-
-/*/ Progress Bar Recolor /*/
-.progress-bar {
-	--bg-color: var(--spice-player);
-}
-
-
-/*/ Shuffle Button Recolor /*/
-.main-shuffleButton-button.pp1ooFGqFEUG5ucC6_KW:not([disabled]):focus:not(:focus-visible):not(:hover) {
-    color: var(--spice-subtext);
-}
-
-.main-shuffleButton-button:focus:not(:focus-visible):not(:hover) {
-    color: var(--spice-subtext);
-}
-
-.main-shuffleButton-button.pp1ooFGqFEUG5ucC6_KW {
-    color: var(--spice-subtext);
-}
-
-.main-shuffleButton-button:focus, .main-shuffleButton-button:hover {
-    color: #ffffff;
-}
-
-.main-shuffleButton-button.pp1ooFGqFEUG5ucC6_KW:not([disabled]):focus, .main-shuffleButton-button.pp1ooFGqFEUG5ucC6_KW:not([disabled]):hover {
-    color: #ffffff;
-}
-
-/*/ Repeat Button Recolor /*/
-.main-repeatButton-button.yKo7LWUCQCEALszRxAaS:not([disabled]):focus:not(:focus-visible):not(:hover) {
-    color: var(--spice-subtext);
-}
-
-.main-repeatButton-button.yKo7LWUCQCEALszRxAaS:focus:not(:focus-visible):not(:hover) {
-    color: var(--spice-subtext);
-}
-
-.main-repeatButton-button.yKo7LWUCQCEALszRxAaS {
-    color: var(--spice-subtext);
-}
-
-.main-repeatButton-button.yKo7LWUCQCEALszRxAaS:focus, .main-repeatButton-button.yKo7LWUCQCEALszRxAaS:hover {
-    color: #ffffff;
-}
-
-.main-repeatButton-button.yKo7LWUCQCEALszRxAaS:not([disabled]):focus, .main-repeatButton-button.yKo7LWUCQCEALszRxAaS:not([disabled]):hover {
-    color: #ffffff;
-}
-
-/*/ Heart Recolor /*/
-:root .main-trackList-rowHeartButton *:not([fill=none]), :root .control-button-heart *:not([fill=none]) {
-    color: #ffffff !important;
-    fill: #ffffff !important;
-}
-
-.main-addButton-button:focus, .main-addButton-button:hover {
-    color: var(--spice-text) !important;
-}
-
-.main-addButton-active, .main-addButton-active:focus {
-	color: rgba(255,255,255,.7) !important;
-}
-
-/*/ Episode Recolor /*/
-#spicetify-sticky-list > div:nth-child(8) > a > div.main-collectionLinkButton-icon > div > svg > path {
-    fill: white !important;
-}
-
-#spicetify-sticky-list > div:nth-child(7) > a > div.main-collectionLinkButton-icon > div > svg > path {
-	fill: white !important;
-}
-
-/*/ Text Removal /*/
-:root p.lyrics-lyricsContainer-Provider {
-	font-size: 0;
-}
-
-/*/ Home Mod /*/
-.main-home-homeHeader {
-	display: none;
-}
-
-/*/ Cover Art Mod /*/
-:root .Root__now-playing-bar .main-nowPlayingBar-container .main-nowPlayingBar-nowPlayingBar .main-nowPlayingWidget-nowPlaying .main-coverSlotCollapsed-container .cover-art {
-    width: 115px !important;
-    height: 84px !important;
-	border-radius: 15px;
-	overflow: hidden;
-}
-
-.cover-art.shadow {
-    box-shadow: 0 0 10px rgba(var(--spice-rgb-shadow),.4);
-}
-
-.main-coverSlotCollapsed-expandButton:focus, .main-coverSlotCollapsed-expandButton {
-	color: rgb(0,0,0);
-}
-
-.main-coverSlotCollapsed-expandButton:focus, .main-coverSlotCollapsed-expandButton:hover {
-	color: rgb(0,0,0);
-}
-
-.main-editImageButton-icon.icon {
-	color: #000000;
-}
-
-svg.main-coverSlotExpandedCollapseButton-chevron {
-    color: rgb(0,0,0);
-}
-
-/*/ Activity Fix /*/
-.main-connectBar-connectBar {
-    overflow: visible !important;
-    --triangle-position: 147px !important;
-    align-items: unset !important;
-    height: 0px !important;
-    position: absolute !important;
-    left: 80% !important;
-    display: flex !important;
-    bottom: 2% !important;
-    padding: unset !important;
-
-}
-
-/*/ Scrollbar Removal /*/
-#main{
-  background-color: var(--spice-main);
-  overflow: hidden;
-}
-
-.os-scrollbar-vertical {
-	display: none;
-}
-
-.spotifyinternal-artistnpv .npv-background-color--gradient {
-	--spice-rgb-shadow: rgb(0,0,0);
-}
-
-/*/ Spotify Premium Fullscreen /*/
-.npv-has-background-image.npv-has-audio.spotifyinternal-artistnpv .npv-background-overlay {
-    background-color: rgba(var(--spice-rgb-main),.4);
-}
-
-.spotifyinternal-artistnpv .npv-background-image {
-	filter: blur(3px);
-    left: -40px;
-    width: 102%;
-    height: 104%;
-    top: -40px;
-}
-
-.progress-bar {
-    --bg-color: var(--spice-button-disabled);
-    --fg-color: var(--spice-subtext);
-    --is-active-fg-color: #ffffff;
-    --progress-bar-transform: 0%;
-    --progress-bar-height: 4px;
-    --progress-bar-radius: calc(var(--progress-bar-height)/2);
-    height: 100%;
-    overflow: hidden;
-    -ms-touch-action: none;
-    touch-action: none;
-    width: 100%;
-}
-
-.npv-cover-art {
-	box-shadow: 0 0 75px rgba(var(--spice-rgb-shadow),.4);
-}
-
-/*/ Tracklist /*/
-
-:root .Root__main-view section[data-testid=playlist-page] .main-trackList-trackListRow.main-trackList-selected, .main-trackList-trackListRow.main-trackList-selected:hover {
-    background-color: rgb(58 58 58 / 25%);
-}
-
-:root .Root__main-view section[data-testid=playlist-page] button.main-trackList-rowImagePlayButton {
-    color: #000000d1;
-}
-
-:root .Root__main-view section[data-testid=playlist-page] .main-trackList-trackListRow.main-trackList-active:hover .main-trackList-rowTitle, .main-trackList-trackListRow.main-trackList-active:hover .main-trackList-rowMarker {
-	color: rgb(255,255,255);
-	text-shadow: 0px 0px 6px white;
-	-webkit-text-stroke: thin;
-}
-
-:root .Root__main-view section[data-testid=playlist-page] .main-trackList-trackListRow.main-trackList-active .main-trackList-rowTitle, .main-trackList-trackListRow.main-trackList-active .main-trackList-rowMarker {
-	color: rgb(255,255,255);
-	text-shadow: 0px 0px 6px white;
-	-webkit-text-stroke: thin;
-}
-
-:root .Root__main-view section[data-testid=playlist-page] .main-trackList-trackListRow.main-trackList-active:focus-within .main-trackList-rowTitle, .main-trackList-trackListRow.main-trackList-active:focus-within .main-trackList-rowMarker {
-	color: rgb(255,255,255);
-	text-shadow: 0px 0px 6px white;
-	-webkit-text-stroke: thin;
-}
-
-:root .Root__main-view section[data-testid=playlist-page] .main-trackList-rowSectionIndex:hover {
-	background: rgba(var(--spice-rgb-shadow),.5);
-	border-radius: var(--border-radius);
-}
-
-:root .Root__main-view section[data-testid=playlist-page] .main-trackList-trackListRow:hover .main-trackList-rowSectionIndex {
-	background: rgba(var(--spice-rgb-shadow),.5);
-	border-radius: var(--border-radius);
-}
-
-:root .Root__main-view section[data-testid=playlist-page] .main-trackList-trackListRow:focus-within .main-trackList-rowSectionIndex {
-	background: rgba(var(--spice-rgb-shadow),.5);
-	border-radius: var(--border-radius);
-}
-
-:root .Root__main-view section[data-testid=playlist-page] .main-trackList-trackListRowGrid:hover .main-trackList-rowSectionIndex {
-	background: rgba(var(--spice-rgb-shadow),.5);
-	border-radius: var(--border-radius);
-}
-
-:root .Root__main-view section[data-testid=playlist-page] .main-trackList-trackListRow.main-trackList-active:focus-within .main-trackList-rowSectionIndex {
-	background: rgba(var(--spice-rgb-shadow),.5);
-	border-radius: var(--border-radius);
-}
-
-:root .Root__main-view section[data-testid=playlist-page] .main-trackList-trackListRow.main-trackList-active .main-trackList-rowSectionIndex {
-	background: rgba(var(--spice-rgb-shadow),.5);
-	border-radius: var(--border-radius);
-}
-
-:root .Root__main-view section[data-testid=playlist-page] .main-trackList-trackListRow.main-trackList-active button.main-trackList-rowImagePlayButton  {
-	opacity: 1;
-}
-
-:root .Root__main-view section[data-testid=playlist-page] .main-trackList-trackListRow.main-trackList-active:focus-within button.main-trackList-rowImagePlayButton  {
-	opacity: 1;
-}
-
-/*/ Play Button Fix /*/
-button.Button-qlcn5g-0.iaAUvZ:hover .ButtonInner-sc-14ud5tc-0, button.Button-qlcn5g-0.iaAUvZ:hover .ButtonFocus-sc-2hq6ey-0 {
-  transform: scale(1.00);
-}
-
-.fpCtYO {
-  border-radius: var(--border-radius);
-}
-
-.main-card-PlayButtonContainer {
-  border-radius: var(--border-radius);
-}
-
-.ButtonInner-sc-14ud5tc-0.bxzzGk.encore-inverted-light-set {
-	border-radius: var(--border-radius);
-}
-
-button.Button-qlcn5g-0.iaAUvZ:hover {
-  transform: scale(1.04);
-box-shadow: 0px 0px 6px white;
-transition: none 33ms cubic-bezier(.3,0,0,1);
-transition-property: all;
-}
-
-button.Button-qlcn5g-0.iaAUvZ {
-  background-color: #ffffff;
-  border: 0;
-}
-
-.cSeieV {
-  border-radius: var(--border-radius);
-}
-.gOkZP {
-border-radius: var(--border-radius);
-}
-
-.encore-dark-theme .encore-bright-accent-set {
-  --background-base: #ffffff;
-  --background-highlight: #ffffff;
-  --background-press: #ffffff;
-}
-
-.main-actionBar-ActionBarRow>:first-child {
-margin-right: 24px
-}
-
-.contentSpacing {
-  padding: inherit 34px;
-}
-
-
-/*/ Lyric button + Queue button Fix /*/
-
-.control-button--active {
-    fill: var(--spice-subtext) !important;
-    color: var(--spice-subtext) !important;
-}
-
-.control-button:hover {
-    fill: rgb(255,255,255) !important;
-    color: rgb(255,255,255)!important;
-}
-
-.control-button:focus {
-    fill: var(--spice-subtext) !important;
-    color: var(--spice-subtext) !important;
-}
-
-.control-button--active-dot:after {
-	background-color: var(--spice-subtext) !important;
-}
-
-.main-view-container__scroll-node-child-spacer {
-    height: 60px;
-}
-
 :root .Root__main-view #preloadImage {
   position: absolute;
   width: 0;
@@ -351,7 +5,6 @@ margin-right: 24px
   overflow: hidden;
   z-index: -1;
 }
-
 :root .Root__main-view #mainImage {
   position: absolute;
   width: 100%;
@@ -411,22 +64,13 @@ margin-right: 24px
 :root .Root__main-view .main-yourEpisodes-yourEpisodesContentWrapper {
   max-width: unset;
 }
-#main > div > div.Root__top-container > div.Root__main-view > main > div.os-host.os-host-foreign.os-theme-spotify.os-host-resize-disabled.os-host-scrollbar-horizontal-hidden.main-view-container__scroll-node.os-host-transition.os-host-overflow.os-host-overflow-y > div.os-padding > div > div > div.main-view-container__scroll-node-child > section > div > div.iB16LxoPzDeVZo8zPhPQ > div.main-actionBarBackground-background {
-  background: linear-gradient(rgba(255, 255, 255, 0.8) 0,
-  var(--spice-main) 232px),
-  var(--background-noise) !important;
-  height: calc(100% - 243px);
-
-}
-
 :root .Root__main-view .main-actionBarBackground-background {
-  background: linear-gradient(rgba(255, 255, 255, 0.6) 0,
-  var(--spice-main) 232px),
-  var(--background-noise) !important;
+  background: linear-gradient(rgba(var(--spice-rgb-shadow), 0.6) 0, var(--spice-main) 232px), var(--background-noise) !important;
   height: calc(100% - 243px);
-
 }
-
+:root .Root__main-view section[data-testid=playlist-page] .main-actionBar-ActionBar, :root .Root__main-view section[data-testid=album-page] .main-actionBar-ActionBar, :root .Root__main-view section[data-testid=your-episodes-page] .main-actionBar-ActionBar, :root .Root__main-view section[data-testid=artist-page] .main-actionBar-ActionBar {
+  padding: 8px 16px 16px 16px;
+}
 :root .Root__main-view section[data-testid=playlist-page] .main-actionBar-ActionBar .main-playButton-PlayButton, :root .Root__main-view section[data-testid=album-page] .main-actionBar-ActionBar .main-playButton-PlayButton, :root .Root__main-view section[data-testid=your-episodes-page] .main-actionBar-ActionBar .main-playButton-PlayButton, :root .Root__main-view section[data-testid=artist-page] .main-actionBar-ActionBar .main-playButton-PlayButton {
   margin-top: -24px;
   margin-left: 8px;
@@ -446,7 +90,7 @@ margin-right: 24px
 :root .Root__main-view section[data-testid=your-episodes-page] > .main-yourEpisodes-yourEpisodesContentWrapper [data-testid^=episode-] {
   margin: 0;
 }
-:root .Root__main-view section[data-testid=playlist-page] > div:last-child, :root .Root__main-view section[data-testid=album-page] > div:nth-last-child(2), :root .Root__main-view section[data-testid=episode] > div:last-child, :root .Root__main-view section[data-testid=your-episodes-page] > div:last-child {
+:root .Root__main-view section[data-testid=playlist-page] > div:last-child, :root .Root__main-view section[data-testid=album-page] > div:nth-last-child(2), :root .Root__main-view section[data-testid=episode] > div:last-child, :root .Root__main-view section[data-testid=your-episodes-page] > div:last-child, :root .Root__main-view section[data-testid=artist-page] > div > div:last-child {
   background: none;
 }
 :root .Root__main-view section[data-testid=playlist-page] > div:last-child .main-trackList-trackListRowGrid, :root .Root__main-view section[data-testid=album-page] > div:nth-last-child(2) .main-trackList-trackListRowGrid, :root .Root__main-view section[data-testid=episode] > div:last-child .main-trackList-trackListRowGrid, :root .Root__main-view section[data-testid=your-episodes-page] > div:last-child .main-trackList-trackListRowGrid, :root .Root__main-view section[data-testid=artist-page] > div > div:last-child .main-trackList-trackListRowGrid {
@@ -459,7 +103,7 @@ margin-right: 24px
   transition: 300ms color;
 }
 :root .Root__main-view section[data-testid=playlist-page] > div:last-child .main-trackList-trackListRowGrid:hover, :root .Root__main-view section[data-testid=album-page] > div:nth-last-child(2) .main-trackList-trackListRowGrid:hover, :root .Root__main-view section[data-testid=episode] > div:last-child .main-trackList-trackListRowGrid:hover, :root .Root__main-view section[data-testid=your-episodes-page] > div:last-child .main-trackList-trackListRowGrid:hover, :root .Root__main-view section[data-testid=artist-page] > div > div:last-child .main-trackList-trackListRowGrid:hover {
-  background-color: #3A3A3A40;
+  background-color: rgba(255, 255, 255, 0.05);
 }
 :root .Root__main-view section[data-testid=playlist-page] > div:last-child .main-trackList-trackListRowGrid.vMOFJ7EasQXUloRrStEe, :root .Root__main-view section[data-testid=album-page] > div:nth-last-child(2) .main-trackList-trackListRowGrid.vMOFJ7EasQXUloRrStEe, :root .Root__main-view section[data-testid=episode] > div:last-child .main-trackList-trackListRowGrid.vMOFJ7EasQXUloRrStEe, :root .Root__main-view section[data-testid=your-episodes-page] > div:last-child .main-trackList-trackListRowGrid.vMOFJ7EasQXUloRrStEe, :root .Root__main-view section[data-testid=artist-page] > div > div:last-child .main-trackList-trackListRowGrid.vMOFJ7EasQXUloRrStEe {
   background-color: rgba(255, 255, 255, 0.1);
@@ -470,8 +114,10 @@ margin-right: 24px
 :root .Root__main-view section[data-testid] {
   position: relative;
 }
-
-:root .Root__main-view section[data-testid=playlist-page] .main-trackList-trackListRow > .main-trackList-rowSectionIndex {
+:root .Root__main-view section[data-testid=playlist-page] .main-trackList-trackListRow, :root .Root__main-view section[data-testid=artist-page] .main-trackList-trackListRow {
+  grid-template-columns: [first] 6fr [var1] 4fr [var2] 3fr [last] minmax(120px, 1fr) !important;
+}
+:root .Root__main-view section[data-testid=playlist-page] .main-trackList-trackListRow > .main-trackList-rowSectionIndex, :root .Root__main-view section[data-testid=artist-page] .main-trackList-trackListRow > .main-trackList-rowSectionIndex {
   position: absolute;
   z-index: 1000;
   top: 8px;
@@ -481,34 +127,9 @@ margin-right: 24px
   justify-content: center;
   text-indent: -1000px;
 }
-
-.main-entityHeader-background.main-entityHeader-gradient {
-    -webkit-animation: background-animation 1s linear;
-    animation: background-animation 1s linear;
-    -webkit-animation-delay: calc(var(--scroll)*-1s);
-    animation-delay: calc(var(--scroll)*-1s);
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-    -webkit-animation-play-state: paused;
-    animation-play-state: paused;
-    opacity: 1;
-    -webkit-transform: scale(1.1);
-    transform: scale(1.0);
-}
-
 :root .Root__main-view section[data-testid=playlist-page] .main-trackList-trackList[aria-colcount="6"] .main-trackList-trackListRow, :root .Root__main-view section[data-testid=artist-page] .main-trackList-trackList[aria-colcount="6"] .main-trackList-trackListRow {
   grid-template-columns: [first] 6fr [var1] 4fr [var2] 3fr [var3] minmax(120px, 2fr) [last] minmax(120px, 1fr) !important;
 }
-
-
-
-:root .Root__main-view section[data-testid=playlist-page] .main-trackList-trackListRow {
-    grid-template-columns: [first] 6fr [var1] 4fr [var2] 3fr [last] minmax(120px, 1fr) !important;
-}
-
-
 
 :root .Root__nav-bar {
   overflow: hidden;
@@ -547,7 +168,7 @@ margin-right: 24px
 :root .Root__nav-bar ul.main-navBar-entryPoints#spicetify-sticky-list li[data-id="/new-releases"] {
   grid-area: new-releases;
 }
-:root .Root__nav-bar ul.main-navBar-entryPoints#spicetify-sticky-list li[data-id$="marketplace"] {
+:root .Root__nav-bar ul.main-navBar-entryPoints#spicetify-sticky-list li[data-id$=marketplace] {
   grid-area: marketplace;
 }
 :root .Root__nav-bar ul.main-navBar-entryPoints#spicetify-sticky-list div[data-id="/add"] {
@@ -569,7 +190,7 @@ margin-right: 24px
   background-color: transparent;
 }
 :root .Root__nav-bar ul.main-navBar-entryPoints > li a.main-navBar-navBarLinkActive {
-  background-color: #5c6eb12a;
+  background-color: rgba(92, 110, 177, 0.1647058824);
 }
 :root .Root__nav-bar ul.main-navBar-entryPoints > li a svg > * {
   display: none;
@@ -633,11 +254,10 @@ margin-right: 24px
 :root .Root__nav-bar ul.main-navBar-entryPoints a[href="/new-releases"] .collection-active-icon {
   background: url("https://i.imgur.com/CTRVDwF.png") center/cover no-repeat;
 }
-:root .Root__nav-bar ul.main-navBar-entryPoints a[href$="marketplace"] .collection-icon {
+:root .Root__nav-bar ul.main-navBar-entryPoints a[href$=marketplace] .collection-icon {
   background: url("https://i.imgur.com/2pWNa48.png") center/cover no-repeat;
 }
-
-:root .Root__nav-bar ul.main-navBar-entryPoints a[href$="marketplace"] .collection-active-icon {
+:root .Root__nav-bar ul.main-navBar-entryPoints a[href$=marketplace] .collection-active-icon {
   background: url("https://i.imgur.com/rKmXQ6V.png") center/cover no-repeat;
 }
 :root .Root__nav-bar ul.main-navBar-entryPoints:not(#spicetify-sticky-list) + .main-rootlist-rootlist > div {
@@ -733,7 +353,7 @@ margin-right: 24px
 :root .Root__nav-bar .main-rootlist-rootlist .os-content > ul[tabindex="0"] > div > div:nth-child(2) .main-rootlist-rootlistItem .main-rootlist-rootlistItemLink {
   padding-top: 4px;
   padding-bottom: 4px;
-  padding-left: calc(12px + var(--indentation)*var(--left-sidebar-item-indentation-width));
+  padding-left: calc(12px + var(--indentation) * var(--left-sidebar-item-indentation-width));
   padding-right: var(--left-sidebar-padding-right);
   box-sizing: content-box;
   transition: 150ms background-color;
@@ -745,7 +365,7 @@ margin-right: 24px
   margin-left: 0;
 }
 :root .Root__nav-bar .main-rootlist-rootlist .os-content > ul[tabindex="0"] > div > div:nth-child(2) .main-rootlist-rootlistItem .main-rootlist-rootlistItemLinkActive, :root .Root__nav-bar .main-rootlist-rootlist .os-content > ul[tabindex="0"] > div > div:nth-child(2) .main-rootlist-rootlistItem .main-rootlist-rootlistItemLink:focus, :root .Root__nav-bar .main-rootlist-rootlist .os-content > ul[tabindex="0"] > div > div:nth-child(2) .main-rootlist-rootlistItem .main-rootlist-rootlistItemLink:hover, :root .Root__nav-bar .main-rootlist-rootlist .os-content > ul[tabindex="0"] > div > div:nth-child(2) .main-rootlist-rootlistItem .main-rootlist-rootlistItemLinkActive + *, :root .Root__nav-bar .main-rootlist-rootlist .os-content > ul[tabindex="0"] > div > div:nth-child(2) .main-rootlist-rootlistItem .main-rootlist-rootlistItemLink:focus + *, :root .Root__nav-bar .main-rootlist-rootlist .os-content > ul[tabindex="0"] > div > div:nth-child(2) .main-rootlist-rootlistItem .main-rootlist-rootlistItemLink:hover + * {
-  background-color: #3A3A3A40;
+  background-color: rgba(92, 110, 177, 0.1647058824);
 }
 :root .Root__nav-bar .main-rootlist-rootlist .os-content > ul[tabindex="0"] > div > div:nth-child(2) .main-rootlist-rootlistItem .main-rootlist-statusIcons:not(:empty) {
   -webkit-margin-start: 0;
@@ -772,6 +392,7 @@ margin-right: 24px
   border-bottom-right-radius: calc(var(--border-radius) + 5px);
   overflow: hidden;
 }
+
 :root .Root__now-playing-bar .main-nowPlayingBar-container {
   position: relative;
   border-top: none;
@@ -781,15 +402,17 @@ margin-right: 24px
   padding-bottom: 16px;
 }
 :root .Root__now-playing-bar .main-nowPlayingBar-container .main-nowPlayingBar-nowPlayingBar .main-nowPlayingWidget-nowPlaying.main-nowPlayingWidget-coverExpanded {
-    transform: translateX(-125px);
-}
-:root .Root__now-playing-bar .main-nowPlayingBar-container .main-nowPlayingBar-nowPlayingBar .main-nowPlayingWidget-nowPlaying.main-nowPlayingWidget-coverExpanded .main-coverSlotCollapsed-container {
-	opacity: 0;
+  transform: translateX(-100px);
 }
 :root .Root__now-playing-bar .main-nowPlayingBar-container .main-nowPlayingBar-nowPlayingBar .main-nowPlayingWidget-nowPlaying .main-coverSlotCollapsed-container {
   top: -20px;
 }
-
+:root .Root__now-playing-bar .main-nowPlayingBar-container .main-nowPlayingBar-nowPlayingBar .main-nowPlayingWidget-nowPlaying .main-coverSlotCollapsed-container .cover-art {
+  width: 84px !important;
+  height: 84px !important;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
 :root .Root__now-playing-bar .main-nowPlayingBar-container .main-connectBar-connectBar {
   position: absolute;
   top: -15px;
@@ -874,9 +497,6 @@ margin-right: 24px
   padding: 0;
   gap: 12px;
 }
-:root .Root__top-bar header .main-userWidget-box > div:last-child {
-  display: none;
-}
 :root .Root__top-bar header .main-userWidget-box .main-avatar-avatar {
   width: 40px !important;
   height: 40px !important;
@@ -899,7 +519,7 @@ margin-right: 24px
 }
 
 .Root__main-view > div:first-of-type > div, .desktoproutes-homepage-takeover-ad-hptoComponent-parentContainer {
-  display: block;
+  display: none;
 }
 
 :root {
@@ -908,11 +528,15 @@ margin-right: 24px
 :root button, :root input, :root img {
   border-radius: var(--border-radius);
 }
-
+:root .main-trackList-rowHeartButton *:not([fill=none]), :root .control-button-heart *:not([fill=none]) {
+  color: #d25050 !important;
+  fill: #d25050 !important;
+}
 :root .main-trackList-rowSectionEnd .main-addButton-active, :root .main-trackList-rowSectionEnd .main-addButton-active:focus, :root .main-trackList-rowSectionEnd .main-addButton-active:hover {
   color: #d25050;
 }
 :root .lyrics-lyricsContainer-LyricsBackground {
+  z-index: -1;
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
@@ -931,7 +555,7 @@ margin-right: 24px
   content: none;
 }
 :root #context-menu ul button:not(.main-contextMenu-disabled):focus, :root #context-menu ul button:not(.main-contextMenu-disabled):hover, :root #context-menu ul button[aria-expanded=true], :root #context-menu ul a:not(.main-contextMenu-disabled):focus, :root #context-menu ul a:not(.main-contextMenu-disabled):hover, :root #context-menu ul a[aria-expanded=true] {
-  background-color: #5c6eb12a;
+  background-color: rgba(92, 110, 177, 0.1647058824);
   transition: 150ms background-color;
 }
 :root #bookmark-menu {
@@ -948,9 +572,6 @@ margin-right: 24px
   content: none;
 }
 :root #bookmark-menu button:not(.main-contextMenu-disabled):focus, :root #bookmark-menu button:not(.main-contextMenu-disabled):hover, :root #bookmark-menu button[aria-expanded=true], :root #bookmark-menu a:not(.main-contextMenu-disabled):focus, :root #bookmark-menu a:not(.main-contextMenu-disabled):hover, :root #bookmark-menu a[aria-expanded=true] {
-  background-color: #5c6eb12a;
+  background-color: rgba(92, 110, 177, 0.1647058824);
   transition: 150ms background-color;
-}
-.iUSAh1wdhXLk9hHSbkCA:after{
-  display:none !important; /*Removes the small triangle over the play bar when playing on a sepret device*/
-}
+}/*# sourceMappingURL=app.css.map */

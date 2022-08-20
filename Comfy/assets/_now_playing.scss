@@ -64,12 +64,12 @@
         --progress-bar-radius: 0;
 
         & > div > div {
-          transition: width linear 1s;
+          transition: transform linear 1s;
           width: 105%;
           background-color: transparent;
           background-image: linear-gradient(
             90deg,
-            #1ed760 99%,
+            #007bff 99%,
             transparent 100%
           );
         }

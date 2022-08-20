@@ -81,6 +81,7 @@
   margin-right: 22px;
 }
 :root .Root__main-view section[data-testid=playlist-page] .os-viewport .main-actionBar-ActionBar .main-actionBar-ActionBarRow .main-playButton-PlayButton, :root .Root__main-view section[data-testid=album-page] .os-viewport .main-actionBar-ActionBar .main-actionBar-ActionBarRow .main-playButton-PlayButton, :root .Root__main-view section[data-testid=your-episodes-page] .os-viewport .main-actionBar-ActionBar .main-actionBar-ActionBarRow .main-playButton-PlayButton, :root .Root__main-view section[data-testid=artist-page] .os-viewport .main-actionBar-ActionBar .main-actionBar-ActionBarRow .main-playButton-PlayButton {
+  cursor: pointer;
   margin-left: 24px;
   margin-top: -24px;
 }
@@ -214,6 +215,7 @@
   background: none;
 }
 :root .Root__nav-bar ul.main-navBar-entryPoints > div button, :root .Root__nav-bar ul.main-navBar-entryPoints > div a {
+  cursor: pointer;
   padding: 0;
 }
 :root .Root__nav-bar ul.main-navBar-entryPoints > div button div, :root .Root__nav-bar ul.main-navBar-entryPoints > div a div {
@@ -453,10 +455,10 @@
   --progress-bar-radius: 0;
 }
 :root .Root__now-playing-bar .playback-bar .playback-progressbar > div > div > div > div {
-  transition: width linear 1s;
+  transition: transform linear 1s;
   width: 105%;
   background-color: transparent;
-  background-image: linear-gradient(90deg, #1ed760 99%, transparent 100%);
+  background-image: linear-gradient(90deg, #007bff 99%, transparent 100%);
 }
 :root .Root__now-playing-bar .playback-bar .playback-progressbar .progress-bar__slider {
   display: none;
@@ -490,7 +492,8 @@
 :root .Root__top-bar header button[title="Popup Lyrics"] svg {
   display: none;
 }
-:root .Root__top-bar header .main-topBar-historyButtons button, :root .Root__top-bar header .lyrics-tabBar-active {
+:root .Root__top-bar header .main-topBar-historyButtons button,
+:root .Root__top-bar header .lyrics-tabBar-active {
   background-color: rgba(11, 11, 17, 0.32);
 }
 :root .Root__top-bar header .main-topBar-UpgradeButton {

@@ -20,8 +20,14 @@
     z-index: -1;
     transition: 300ms background-image ease-in-out;
     filter: blur(4px);
-    -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-    mask-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    -webkit-mask-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    );
+    mask-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    );
   }
 
   @media (max-width: 1500px) {
@@ -107,6 +113,7 @@
             margin-right: 22px;
 
             .main-playButton-PlayButton {
+              cursor: pointer;
               margin-left: 24px;
               margin-top: -24px;
             }
@@ -115,7 +122,9 @@
       }
     }
 
-    &[data-testid="your-episodes-page"] > .contentSpacing > section {
+    &[data-testid="your-episodes-page"]
+      > .contentSpacing
+      > section {
       height: calc(100vh - 494px);
     }
     &[data-testid="your-episodes-page"]
@@ -183,7 +192,8 @@
       }
     }
 
-    .main-trackList-trackList[aria-colcount="6"] .main-trackList-trackListRow {
+    .main-trackList-trackList[aria-colcount="6"]
+      .main-trackList-trackListRow {
       grid-template-columns:
         [first] 6fr [var1] 4fr [var2] 3fr [var3] minmax(120px, 2fr)
         [last] minmax(120px, 1fr) !important;

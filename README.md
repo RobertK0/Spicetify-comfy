@@ -1,3 +1,5 @@
+Full credit to authors and contributors on [the original repo](https://github.com/Comfy-Themes/Spicetify), this is just slightly modified to personal preference
+
 ### ✅ Supported -> Spicetify 2.11.1, Spotify 1.1.90.
 ---
 
